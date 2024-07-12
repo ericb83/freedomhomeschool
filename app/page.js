@@ -32,9 +32,9 @@ export default function Home() {
       </section>
       <div className="flex flex-row gap-10 mt-4">
         <Link href="/signup">
-        <button className="btn btn-primary">Signup</button>
+          <button className="btn btn-primary">Signup</button>
         </Link>
-        
+
         <button className="btn btn-ghost">Login</button>
       </div>
     </main>
