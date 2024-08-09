@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 /* Signup Form Component*/
@@ -12,46 +13,45 @@ const SignUp = () => {
         <input
           className=" bg-white shadow-lg rounded-xl px-4 py-4  input input-bordered input-primary"
           type="text"
+          id="name"
           placeholder="Name"
         />
 
         <input
           className="bg-white shadow-lg rounded-xl px-4 py-4  input input-bordered input-primary"
           type="phone"
+          id="phone"
           placeholder="Phone Number"
         />
 
         <input
           className="bg-white shadow-lg rounded-xl px-4 py-4  input input-bordered input-primary"
           type="email"
+          id="email"
           placeholder="Email"
         />
 
         <input
           className="bg-white shadow-lg rounded-xl px-4 py-4  input input-bordered input-primary"
           type="password"
+          id="password"
           placeholder="Password"
         />
 
         <input
           className="bg-white shadow-lg rounded-xl px-4 py-4  input input-bordered input-primary"
           type="password"
+          id="password"
           placeholder="Confirm Password"
         />
 
         <button
           data-theme="aqua"
-          className="shadow-lg rounded-xl px-4 py-4 hover:bg-transparent hover:text-black"
+          className="shadow-lg rounded-xl px-4 py-4 mt-4 hover:bg-transparent hover:text-black"
           type="submit"
         >
           Sign Up
         </button>
-        <span>
-          Already a member?
-          <button className="btn btn-link  hover:text-black">
-            Sign In Here
-          </button>
-        </span>
       </form>
     </div>
   );

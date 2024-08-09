@@ -1,12 +1,13 @@
+"use client";
 import Image from "next/image";
 import homeschool from "../public/homeschool.jpg";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <section className="flex flex-col lg:flex-row items-center">
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <h1 className="text-3xl font-bold capitalize leading-wide mb-6">
             The perfect hours tracking solution for Homeschoolers.
           </h1>
@@ -27,15 +28,17 @@ export default function Home() {
         <Image
           src={homeschool}
           alt="homeschool picture"
-          className="ml-4 mt-6 w-1/2"
+          className="ml-4 mt-6 w-full lg:w-1/2"
         />
       </section>
       <div className="flex flex-row gap-10 mt-4">
-        <Link href="/signup">
-          <button className="btn btn-primary">Signup</button>
+        <Link href="/auth?form=signup">
+          <button className="btn btn-primary">Create Account</button>
         </Link>
 
-        <button className="btn btn-ghost">Login</button>
+        <Link href="/auth?form=login">
+          <button className="btn btn-primary">Login</button>
+        </Link>
       </div>
     </main>
   );
