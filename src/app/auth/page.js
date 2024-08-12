@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import SignUp from "../components/SignUp";
-import Login from "../components/Login";
+import SignUp from "../../components/SignUp";
+import Login from "../../components/Login";
 import { useSearchParams } from "next/navigation";
 
 const AuthPage = () => {
