@@ -4,7 +4,7 @@ import React from "react";
 
 const dashboard = () => {
   return (
-    <div className="flex flex-row">
+    <div className="flex">
       <SideBar />
       <Cards />
     </div>
