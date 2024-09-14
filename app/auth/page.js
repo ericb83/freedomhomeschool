@@ -2,10 +2,11 @@
 import React, { useState, useEffect } from "react";
 import SignUp from "../../components/SignUp";
 import Login from "../../components/Login";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const AuthPage = () => {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const form = searchParams.get("form") || "signup";
   const [formType, setFormType] = useState("signup");
 
@@ -15,6 +16,7 @@ const AuthPage = () => {
 
   const toggleForm = () => {
     const newForm = formType === "signup" ? "login" : "signup";
+    router.push(`?form=${newForm}`); // Update the URL query string
     setFormType(newForm);
   };
   console.log("Current form query parameter:", form);

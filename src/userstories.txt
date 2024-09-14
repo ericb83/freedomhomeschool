@@ -1,0 +1,9 @@
+--screens--
+
+-homepage(landing page)-first page user sees which tells the user what the website 
+offers and gives user ability to signup or signin if they are already a member
+
+-auth page - create account and signup forms
+
+-dashboard page - main account page once user logs in
+                - 

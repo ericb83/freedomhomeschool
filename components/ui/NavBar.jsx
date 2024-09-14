@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className="flex-none">
         <input
           type="checkbox"
-          value="cyberpunk"
+          value="forest"
           className="toggle theme-controller"
         />
       </div>

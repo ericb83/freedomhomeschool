@@ -25,7 +25,7 @@ const Login = () => {
 
         <button
           data-theme="aqua"
-          className="shadow-lg rounded-xl p-4 mt-4 hover:bg-transparent hover:text-black"
+          className="btn shadow-lg rounded-xl p-4 mt-4 hover:bg-transparent hover:text-black"
           type="submit"
         >
           Login

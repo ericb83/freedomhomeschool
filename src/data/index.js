@@ -30,6 +30,6 @@ export const hours = {
   studentId: 1, //Associate hours with student
   classId: 1, //Associate hours with class
   date: "08-13-2024",
-  hours: 2,
-  grade: "A",
+  hours: 10,
+  GPA: 3.75,
 };

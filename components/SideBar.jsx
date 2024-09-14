@@ -34,7 +34,7 @@ const SideBar = () => {
               <a>Schedule</a>
             </li>
             <li>
-              <a>Reports</a>
+              <a> Generate Report</a>
             </li>
           </ul>
         </div>
