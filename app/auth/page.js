@@ -16,7 +16,7 @@ const AuthPage = () => {
 
   const toggleForm = () => {
     const newForm = formType === "signup" ? "login" : "signup";
-    router.push(`?form=${newForm}`); // Update the URL query string
+    router.push(`/auth?form=${newForm}`); // Update the URL query string
     setFormType(newForm);
   };
   console.log("Current form query parameter:", form);

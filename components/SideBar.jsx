@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { users } from "@/src/data";
+import { users } from "@/data/data";
 const SideBar = () => {
   return (
     <div className=" flex min-h-screen bg-data-theme">

@@ -1,5 +1,5 @@
 import React from "react";
-import { users, hours, students, classes } from "@/src/data";
+import { users, hours, students, classes } from "@/data/data";
 
 const Cards = () => {
   return (
